@@ -44,7 +44,7 @@ public class LibrarianSuccess extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblLibrarianSection = new JLabel("Librarian Section - Java");
+		JLabel lblLibrarianSection = new JLabel("Librarian Section");
 		lblLibrarianSection.setFont(new Font("Tahoma", Font.PLAIN, 22));
 		
 		JButton btnNewButton = new JButton("Add Books");
@@ -104,7 +104,7 @@ public class LibrarianSuccess extends JFrame {
 				.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
 					.addContainerGap(81, Short.MAX_VALUE)
 					.addComponent(lblLibrarianSection)
-					.addGap(54))
+					.addGap(115))
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addGap(132)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)

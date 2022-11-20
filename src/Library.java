@@ -44,7 +44,7 @@ public class Library extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblLibraryManagement = new JLabel("Library Management - Java");
+		JLabel lblLibraryManagement = new JLabel("Library Management");
 		lblLibraryManagement.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblLibraryManagement.setForeground(Color.GRAY);
 		
@@ -70,7 +70,7 @@ public class Library extends JFrame {
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
 						.addGroup(gl_contentPane.createSequentialGroup()
-							.addGap(64)
+							.addGap(125)
 							.addComponent(lblLibraryManagement))
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGap(140)
