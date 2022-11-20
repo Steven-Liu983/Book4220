@@ -44,7 +44,7 @@ public class LibrarianSuccess extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblLibrarianSection = new JLabel("Librarian Section - JavaTpoint");
+		JLabel lblLibrarianSection = new JLabel("Librarian Section - Java");
 		lblLibrarianSection.setFont(new Font("Tahoma", Font.PLAIN, 22));
 		
 		JButton btnNewButton = new JButton("Add Books");
