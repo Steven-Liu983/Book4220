@@ -69,7 +69,7 @@ public class AdminLogin extends JFrame {
 				AdminSuccess.main(new String[]{});
 				frame.dispose();
 			}else{
-				JOptionPane.showMessageDialog(AdminLogin.this, "Sorry, Username or Password Error","Login Error!", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(AdminLogin.this, "Incorrect username or password","Login Error!", JOptionPane.ERROR_MESSAGE);
 				textField.setText("");
 				passwordField.setText("");
 			}

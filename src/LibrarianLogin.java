@@ -70,7 +70,7 @@ public class LibrarianLogin extends JFrame {
 				LibrarianSuccess.main(new String[]{});
 				frame.dispose();
 			}else{
-				JOptionPane.showMessageDialog(LibrarianLogin.this, "Sorry, Username or Password Error","Login Error!", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(LibrarianLogin.this, "Incorrect username or password","Login Error!", JOptionPane.ERROR_MESSAGE);
 				textField.setText("");
 				passwordField.setText("");
 			}
