@@ -123,7 +123,7 @@ public class BooksForm extends JFrame {
 							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING, false)
 								.addComponent(lblName, GroupLayout.PREFERRED_SIZE, 37, GroupLayout.PREFERRED_SIZE)
 								.addComponent(lblCallNo)
-								.addComponent(lblAuthor, GroupLayout.PREFERRED_SIZE, 37, GroupLayout.PREFERRED_SIZE)
+								.addComponent(lblAuthor, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
 								.addComponent(lblPublisher, GroupLayout.DEFAULT_SIZE, 67, Short.MAX_VALUE)
 								.addComponent(lblQuantity, GroupLayout.PREFERRED_SIZE, 55, GroupLayout.PREFERRED_SIZE))
 							.addGap(47)
