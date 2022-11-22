@@ -45,4 +45,31 @@ public class librarian {
 		
 	}
 	
+	public String issue(String bookName,String bookcallno,String studentname,String studentcontact,  int studentid) {
+		boolean status=false;
+		try{
+			Connection con=DB.getConnection();
+			
+			status=updatebook(bookcallno);//updating quantity and issue
+			
+			if(status>0){
+			PreparedStatement ps=con.prepareStatement("insert into issuebooks(bookcallno,studentid,studentname,studentcontact) values(?,?,?,?)");
+			ps.setString(1,bookcallno);
+			ps.setInt(2,studentid);
+			ps.setString(3,studentname);
+			ps.setString(4,studentcontact);
+			status=ps.executeUpdate();
+			return "book issued successfully";
+			}
+			con.close();
+		}catch(Exception e){System.out.println(e);}
+		
+		if(bookName==null) {
+			return "book not exist";
+		}
+		if(studentid==null) {
+			return "student id not exist";
+		}
+	}
+	
 }
